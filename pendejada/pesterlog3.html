@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesterlog Window</title>
+    <style>
+        #pesterlog {
+            display: none;
+            border: 1px dashed #929292;
+            background-color: #f9f9f9;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        .pesterlog-line {
+            margin: 0;
+        }
+        .tm { color: #ff0000; }
+        .ar { color: #171e9e; }
+    </style>
+</head>
+<body>
+
+<button onclick="togglePesterlog()">Show Dialoge</button>
+<br><font color="#171e9e">AXA: Qu(8) (8)s lo qu(8) (8)stas d1c1(8)ndo ::::?</font><br>
+<font color="#171e9e">AXA: No s(8) t(8) (8)nt1(8)nd(8) nada</font><br>
+<font color="#171e9e">AXA: Tu al1(8)nto hu(8)l(8) a kosako</font><br>
+
+
+<div id="pesterlog">
+
+</div>
+
+<script>
+    function togglePesterlog() {
+        var pesterlog = document.getElementById('pesterlog');
+        if (pesterlog.style.display === 'none' || pesterlog.style.display === '') {
+            pesterlog.style.display = 'block';
+        } else {
+            pesterlog.style.display = 'none';
+        }
+    }
+</script>
+
+</body>
+</html>

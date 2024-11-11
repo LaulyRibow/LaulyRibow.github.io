@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesterlog Window</title>
+    <style>
+        #pesterlog {
+            display: none;
+            border: 1px dashed #929292;
+            background-color: #f9f9f9;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        .pesterlog-line {
+            margin: 0;
+        }
+        .tm { color: #ff0000; }
+        .ar { color: #171e9e; }
+    </style>
+</head>
+<body>
+
+<button onclick="togglePesterlog()">Show Pesterlog</button>
+
+<div id="pesterlog">
+    <br><font color="#171e9e">arachnidsRizz [AR]</font> is still trolling <font color="#ff0000">totallyMousetricious [TM] </font><br>
+<br><font color="#ff0000">TM: 0ye papu</font><br>
+<font color="#ff0000">TM: K siign0 eres</font><br>
+<font color="#171e9e">AR: "$"</font><br>
+<font color="#171e9e">AR: jajajajajaj</font><br>
+<font color="#171e9e">AR: Ns</font><br>
+<font color="#171e9e">AR: D(8)ja v(8)1</font><br>
+<font color="#171e9e">AR: *v(8)o</font><br>
+<font color="#171e9e">AR: Scorp1o</font><br>
+<font color="#ff0000">TM: iingaty</font><br>
+<font color="#ff0000">TM: iingatu</font><br>
+<font color="#ff0000">TM: ⚠️⚠️⚠️</font><br>
+<font color="#ff0000">TM: Mentiira</font><br>
+<font color="#171e9e">AR: Porq mamu</font><br>
+<font color="#171e9e">AR: Yo no s(8) nd d(8) signos</font><br>
+<font color="#171e9e">AR: Tu cual (8)r(8)s?</font><br>
+<font color="#ff0000">TM: Y0 tamp0k0 💔</font><br>
+<font color="#ff0000">TM: Per0</font><br>
+<font color="#ff0000">TM: L0 pregunt0 pk l0 relacii0n0 k0n nuestra jerarquiia de sangre</font><br>
+<font color="#ff0000">TM: [:(</font><br>
+<font color="#ff0000">TM: S0yyyyy Ariies [:)</font><br>
+<font color="#171e9e">AR: Jajajajja</font><br>
+
+</div>
+
+<script>
+    function togglePesterlog() {
+        var pesterlog = document.getElementById('pesterlog');
+        if (pesterlog.style.display === 'none' || pesterlog.style.display === '') {
+            pesterlog.style.display = 'block';
+        } else {
+            pesterlog.style.display = 'none';
+        }
+    }
+</script>
+
+</body>
+</html>
